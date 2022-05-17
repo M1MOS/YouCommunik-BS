@@ -7,13 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="/node_modules/bootstrap/js/dist/base-component.js">
+    <link rel="stylesheet" href="/public/css/style.css">
 </head>
-<body>
-    <div class="container-fluid" style="background-color: #1A1A1D;">
+<body class="col-xs col-sm col-md col-lg">
+    <div class="container-fluid" style="background-color: var(--bs-dark);">
         <div class="row">
-            <div class="col12 navbar navbar-expand-lg justify-content-between">
+            <div class="col12 col-sm-8 navbar navbar-expand-lg justify-content-between">
                 <img src="./public/img/logo-horizontal-fond-noir-couleur.png" width="" height="" alt="">
-                <div class="ul navbar-nav text-light text-center" style="gap: 20px; font-size: 12px;">
+                <div class="ul navbar-nav text-light text-center" style="gap: 20px; font-size: 10px;">
                     <li class="nav-item d-flex flex-column justify-content-center"><img src="/public/img/home-icon.png" alt="" style="font-size: 20px;">Home</li>
                     <li class="nav-item d-flex flex-column justify-content-center"><img src="/public/img/packages-icon.png"  alt="" style="font-size: 20px;">Packages</li>
                     <li class="nav-item d-flex flex-column justify-content-center"><img src="/public/img/outils-icon.png" alt="" style="font-size: 20px;">Outils</li>
@@ -24,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color: #334D5C; padding: 80px 0px;">
+    <div class="container-fluid --bs-blued" style="background-color: var(--bs-blued); padding: 80px;">
         <div class="row">
             <div class="col-12 d-flex justify-content-evenly">
                 <img src="/public/img/packages.png" alt="">
@@ -41,7 +42,7 @@
                 <h3></h3>
             </div>
             <div class="col-4 my-5 py-1 text-center text-light">
-                <h3 style=" background-color: #334D5C; margin: 0px 60px; padding: 20px 0px; font-size: 40px;">Éclosion</h3>
+                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">Éclosion</h3>
             </div>
             <div class="col-4 text-center">
                 <h3></h3>
@@ -59,17 +60,122 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
+        <div class="row">
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/Logo-logo.png" width="90" height="80" alt="">Logo</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-charte-graphic.png" width="90" height="80" alt="">Charte Graphic</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/site-single-page.png"  width="90" height="80" alt="">Site Single Page</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/carte-visite.png" width="90" height="80" alt="">Carte de visite</div>
+            <!-- <div class="col-12 d-flex justify-content-evenly align-items-center">
+                <img src="/public/img/Logo-logo.png" width="90" height="80" alt="">
+                Logo
+                <img src="/public/img/icon-charte-graphic.png" width="90" height="80" alt="">
+                Charte graphique
+                <img src="/public/img/site-single-page.png" width="90" height="80" alt="">
+                Site single page
+                <img src="/public/img/carte-visite.png" width="90" height="80" alt="">
+                Carte de visite
+            </div> -->
+            <!-- <div class="col-12 d-flex justify-content-evenly text-center">
+                <p>Logo</p>
+                <p>Charte Graphic</p>
+                <p>Site Single Page</p>
+                <p>Carte de visite</p>
+            </div> -->
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 d-flex justify-content-center text-center">
-                <img src="/public/img/Logo-logo.png" alt="">
-                <p>Logo</p>
-                <img src="/public/img/icon-charte-graphic.png" alt="">
-                <p>Charte graphique</p>
-                <img src="/public/img/site-single-page.png" alt="">
-                <p>Site single page</p>
-                <img src="/public/img/carte-visite.png" alt="">
-                <p>Carte de visite</p>
+            <div class="col-4 text-center">
+                <h3></h3>
+            </div>
+            <div class="col-4 my-5 py-1 text-center text-light">
+                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">Évolution</h3>
+            </div>
+            <div class="col-4 text-center">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-evenly text-justify">
+                <img src="/public/img/icon-evolution.png" alt="">
+                <div class="" style="width: 40%;">
+                    <p>Le pack évolution est parfait pour le début d'une activité.</p>
+                    <p>il comprend la création de votre identité graphique, incluant votre logo et un support de prospection pour allez à la rencontre vos futurs clients, ainsi qu'un site internet single page pour avoir une présence en ligne</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
+        <div class="row">
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/Logo-logo.png" width="90" height="80" alt="">Logo</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-charte-graphic.png" width="90" height="80" alt="">Charte Graphic</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/site-vitrine.png"  width="90" height="80" alt="">Site Single Page</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/reseaux-sociaux.png" width="90" height="80" alt="">Carte de visite</div>
+            <div class="col-12 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/carte-visite.png" width="90" height="80" alt="">Carte de visite</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 text-center">
+                <h3></h3>
+            </div>
+            <div class="col-4 my-5 py-1 text-center text-light">
+                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">Envol</h3>
+            </div>
+            <div class="col-4 text-center">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-evenly text-justify">
+                <img src="/public/img/icon-envole.png" alt="">
+                <div class="" style="width: 40%;">
+                    <p>Le pack envol est parfait pour le début d'une activité.</p>
+                    <p>il comprend la création de votre identité graphique, incluant votre logo et un support de prospection pour allez à la rencontre vos futurs clients, ainsi qu'un site internet single page pour avoir une présence en ligne</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
+        <div class="row">
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-analyse-flux-web.png" width="90" height="80" alt="">Analyse du flux web</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-campagne-facebook.png" width="90" height="80" alt="">Campagne Facebook</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-campagne-facebook.png"  width="90" height="80" alt="">Campagne Adwords</div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img src="/public/img/icon-campagne-e-mailing.png" width="90" height="80" alt="">Campagne E-mailing</div>
+        </div>
+    </div>
+    <div class="container-fluid text-light" style="background-color: var(--bs-dark); padding: 80px;">
+        <div class="row">
+            <div class="col-4 d-flex flex-column justify-content-between">
+                <h5>Packs</h5>
+                <div class="img mx-2">
+                    <img src="/public/img/icon-eclosion.png" width="60px" height="60px" alt="">
+                    <img src="/public/img/icon-evolution.png" width="60px" height="60px" alt="">
+                    <img src="/public/img/icon-envole.png" width="60px" height="60px" alt="">
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column">
+                <h5>Outils</h5>
+                <div class="img">
+                    <img src="/public/img/icon-eclosion.png" width="60px" height="60px" alt="">
+                    <img src="/public/img/icon-evolution.png" width="60px" height="60px" alt="">
+                    <img src="/public/img/icon-envole.png" width="60px" height="60px" alt="">
+                </div>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-end">
+                <h5>Social Media</h5>
+                <div class="img" style="gap: 20px">
+                    <img src="/public/img/social-f.png" width="60px" height="60px" alt="">
+                    <img src="/public/img/google-plus.png" width="60px" height="60px" alt="">
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-end py-5">
+                <p>C.G.V</p>
             </div>
         </div>
     </div>
