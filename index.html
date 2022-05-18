@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 
-<body>
-    <div class="container-fluid" style="background-color: var(--bs-dark);">
-        <div class="row">
+<body class="text">
+    <div class="container-fluid " style="background-color: var(--bs-dark);">
+        <div class="row d-lg-flex justify-content-lg-center align-items-lg-center">
             <div
-                class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 navbar navbar-expand-lg justify-content-sm-center">
+                class="col-12 col-lg-4 navbar navbar-expand-lg justify-content-sm-center">
                 <img class="img-fluid" src="./public/img/logo-horizontal-fond-noir-couleur.png" style="max-width: 75%;"
                     height="auto" alt="">
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 ul navbar-nav text-light text-center d-flex d-sm-flex d-md-flex d-xl-flex flex-xl-row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center"
+            <div class="col-12 col-lg-8 navbar-nav text-light text-center d-flex flex-colmn flex-lg-row align-items-center justify-content-center"
                 style="gap: 20px; font-size: 10px;">
-                <li class="nav-item">
+                <li class="nav-item py-3">
                     <div class="d-none d-xl-block img-items">
                         <img src="/public/img/home-icon.png" alt="" style="font-size: 20px;">
                     </div>
@@ -75,11 +75,11 @@
     <div class="container-fluid --bs-blued" style="background-color: var(--bs-blued); padding: 80px;">
         <div class="row">
             <div class="col-12">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 justify-content-md-center d-flex d-md-flex d-lg-flex d-xl-flex">
-                    <img src="/public/img/packages.png" style="max-width: 100%;" height="auto" alt="">
+                <div class="col-12 col-lg-12 d-flex justify-content-md-center text-center">
+                    <img src="/public/img/packages.png" width="150" height="150" alt="">
                 </div>
                 <div class="col-12">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 justify-content-md-center text-light">
+                    <div class="col-12 col-lg-12 d-flex justify-content-md-center text-light">
                         <h1>À chaque étape son pack<br> naître, grandir et prospérer.</h1>
                     </div>
                 </div>
@@ -88,134 +88,122 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 text-center">
-                <h3></h3>
-            </div>
-            <div class="col-4 my-5 py-1 text-center text-light">
-                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">
-                    Éclosion</h3>
-            </div>
-            <div class="col-4 text-center">
-                <h3></h3>
+            <div class="col-12 my-3 text-light d-flex justify-content-lg-center align-items-center">
+                <h3 style="background-color: var(--bs-blued); margin: 20px 40px; padding: 0px 30px; font-size: 40px;">Éclosion</h3>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-evenly text-justify">
-                <div class="col-6">
-                    <img src="/public/img/icon-eclosion.png" alt="">
+            <div class="col-12 d-flex flex-column justify-content-evenly text-justify">
+                <div class="col-12 text-center">
+                    <img src="/public/img/icon-eclosion.png" width="150" height="150" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-12 text-center">
                     <p>Le pack éclosion est parfait pour le début d'une activité.</p>
                     <p>il comprend la création de votre identité graphique, incluant votre logo et un support de
                         prospection pour allez à la rencontre vos futurs clients, ainsi qu'un site internet single page
-                        pour avoir une présence en ligne</p>
+                        pour avoir une présence en ligne
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
+    <div class="container-fluid" style="background-color: var(--bs-sand); ">
         <div class="row">
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+            <div class="col-12 py-5 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column">
+                <div class="col-3 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/Logo-logo.png" width="90" height="80" alt="">Logo</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/icon-charte-graphic.png" width="90" height="80" alt="">Charte Graphic</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/site-single-page.png" width="90" height="80" alt="">Site Single Page</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/carte-visite.png" width="90" height="80" alt="">Carte de visite</div>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 text-center">
-                <h3></h3>
-            </div>
-            <div class="col-4 my-5 py-1 text-center text-light">
-                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">
-                    Évolution</h3>
-            </div>
-            <div class="col-4 text-center">
-                <h3></h3>
+            <div class="col-12 my-3 text-light d-flex justify-content-lg-center align-items-center">
+                <h3 style="background-color: var(--bs-blued); margin: 20px 40px; padding: 0px 30px; font-size: 40px;">Éclosion</h3>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-evenly text-justify">
-                <div class="col-6 col-sm-12 flex-sm-wrap">
-                    <img src="/public/img/icon-evolution.png" alt="">
+            <div class="col-12 d-flex flex-column justify-content-evenly text-justify">
+                <div class="col-12 text-center">
+                    <img src="/public/img/icon-eclosion.png" width="150" height="150" alt="">
                 </div>
-                <div class="col-6 col-sm-12 flex-sm-wrap">
-                    <p>Le pack évolution est parfait pour le début d'une activité.</p>
+                <div class="col-12 text-center">
+                    <p>Le pack éclosion est parfait pour le début d'une activité.</p>
                     <p>il comprend la création de votre identité graphique, incluant votre logo et un support de
                         prospection pour allez à la rencontre vos futurs clients, ainsi qu'un site internet single page
-                        pour avoir une présence en ligne</p>
+                        pour avoir une présence en ligne
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
+    <div class="container-fluid" style="background-color: var(--bs-sand); ">
         <div class="row">
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+            <div class="col-12 py-5 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column">
+                <div class="col-2 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/Logo-logo.png" width="90" height="80" alt="">Logo</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-2 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/icon-charte-graphic.png" width="90" height="80" alt="">Charte Graphic</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
-                    src="/public/img/site-vitrine.png" width="90" height="80" alt="">Site Single Page</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-2 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                    src="/public/img/site-single-page.png" width="90" height="80" alt="">Site Single Page</div>
+                <div class="col-2 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/reseaux-sociaux.png" width="90" height="80" alt="">Carte de visite</div>
-            <div class="col-12 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-2 my-2 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/carte-visite.png" width="90" height="80" alt="">Carte de visite</div>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 text-center">
-                <h3></h3>
-            </div>
-            <div class="col-4 my-5 py-1 text-center text-light">
-                <h3 style=" background-color: var(--bs-blued); margin: 0px 60px; padding: 20px 0px; font-size: 40px;">
-                    Envol</h3>
-            </div>
-            <div class="col-4 text-center">
-                <h3></h3>
+            <div class="col-12 my-3 text-light d-flex justify-content-lg-center align-items-center">
+                <h3 style="background-color: var(--bs-blued); margin: 20px 40px; padding: 0px 30px; font-size: 40px;">Éclosion</h3>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-evenly text-justify">
-                <div class="col-6 col-sm-12 flex-sm-wrap">
-                    <img src="/public/img/icon-envole.png" alt="">
+            <div class="col-12 d-flex flex-column justify-content-evenly text-justify">
+                <div class="col-12 text-center">
+                    <img src="/public/img/icon-eclosion.png" width="150" height="150" alt="">
                 </div>
-                <div class="col-6 col-sm-12 flex-sm-wrap">
-                    <p>Le pack envol est parfait pour le début d'une activité.</p>
+                <div class="col-12 text-center">
+                    <p>Le pack éclosion est parfait pour le début d'une activité.</p>
                     <p>il comprend la création de votre identité graphique, incluant votre logo et un support de
                         prospection pour allez à la rencontre vos futurs clients, ainsi qu'un site internet single page
-                        pour avoir une présence en ligne</p>
+                        pour avoir une présence en ligne
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid" style="background-color: var(--bs-sand); margin-top: 40px; padding: 50px;">
         <div class="row">
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+            <div class="col-12 py-5 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column">
+                <div class="col-3 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column"><img
                     src="/public/img/icon-analyse-flux-web.png" width="90" height="80" alt="">Analyse du flux web</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/icon-campagne-facebook.png" width="90" height="80" alt="">Campagne Facebook</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/icon-campagne-facebook.png" width="90" height="80" alt="">Campagne Adwords</div>
-            <div class="col-3 d-flex justify-content-center align-items-center flex-column" style="gap: 10px;"><img
+                <div class="col-3 my-2 d-flex d-lg-flex flex-lg-row justify-content-center align-items-center flex-column" style="gap: 10px;"><img
                     src="/public/img/icon-campagne-e-mailing.png" width="90" height="80" alt="">Campagne E-mailing</div>
+            </div>
         </div>
     </div>
     <div class="container-fluid text-light" style="background-color: var(--bs-dark); padding: 80px;">
         <div class="row">
             <div class="col-4 d-flex flex-column justify-content-between">
                 <h5>Packs</h5>
-                <div class="img mx-2">
+                <div class="img">
                     <img src="/public/img/icon-eclosion.png" width="60px" height="60px" alt="">
                     <img src="/public/img/icon-evolution.png" width="60px" height="60px" alt="">
                     <img src="/public/img/icon-envole.png" width="60px" height="60px" alt="">
